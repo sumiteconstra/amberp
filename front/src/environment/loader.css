@@ -1,0 +1,91 @@
+/* *************** */
+/* CREATIVE LOADER */
+/* *************** */
+:root {
+  /* CREATIVE LOADER */
+  --creative-loader-bg-dot-top: rgb(21, 167, 82);
+  --creative-loader-bg-dot-bottom: rgba(21, 167, 82, 0.448);
+}
+.loader_wrapper {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(8,145,92,0.15);
+    backdrop-filter: blur(5px);
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.creative_loader-container {
+    --creative-loader-size: 1rem;
+    font-size: var(--creative-loader-size);
+    --dot-size: 25px;
+    --animation-duration: 3s;
+    position: relative;
+    min-width: calc(var(--dot-size) * 5);
+    min-height: calc(var(--dot-size) * 2);
+    width: 90px;
+}
+
+.creative_loader-container span {
+  width: var(--dot-size);
+  height: var(--dot-size);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  background: var(--creative-loader-bg-dot-bottom);
+  animation: moveDot var(--animation-duration) linear infinite;
+}
+
+.creative_loader-container span:nth-child(2) {
+  left: var(--dot-size);
+  animation-delay: calc(var(--animation-duration) * 4 / -5);
+}
+
+.creative_loader-container span:nth-child(3) {
+  left: calc(var(--dot-size) * 2);
+  animation-delay: calc(var(--animation-duration) * 3 / -5);
+}
+
+.creative_loader-container span:nth-child(4) {
+  left: calc(var(--dot-size) * 3);
+  animation-delay: calc(var(--animation-duration) * 2 / -5);
+}
+
+.creative_loader-container span:nth-child(5) {
+  left: calc(var(--dot-size) * 4);
+  animation-delay: calc(var(--animation-duration) / -5);
+}
+
+@keyframes moveDot {
+  0% {
+    left: 0%;
+    bottom: 0%;
+  }
+
+  10% {
+    left: 0%;
+    bottom: calc(100% - var(--dot-size));
+    background-color: var(--creative-loader-bg-dot-top);
+  }
+
+  20% {
+    bottom: calc(100% - var(--dot-size));
+    left: calc(100% - var(--dot-size));
+    background-color: var(--creative-loader-bg-dot-top);
+  }
+
+  30% {
+    left: calc(100% - var(--dot-size));
+    bottom: 0;
+    background-color: var(--creative-loader-bg-dot-bottom);
+  }
+
+  100% {
+    bottom: 0;
+    left: 0;
+  }
+}
