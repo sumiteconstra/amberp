@@ -354,7 +354,7 @@ html {
 }
 
 .content-wrapper {
-	background-color: #e0ebf5;
+	background-color: #e7e7e7;
 }
 
 .f-s-20 {
@@ -1693,10 +1693,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control:before {
   }
 }
 
-.form-select,
-.form-control {
-  border-radius: 30px !important;
-}
+
 
 .form-control-sm {
   min-height: 30px;
@@ -1907,7 +1904,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control:before {
 
 .btn {
   font-size: 14px;
-  border-radius: 30px;
+  border-radius: 10px;
   min-width: 130px;
   max-width: 100%;
   white-space: nowrap;

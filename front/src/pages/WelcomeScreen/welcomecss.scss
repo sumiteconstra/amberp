@@ -30,12 +30,12 @@
   }
   .welcome-body {
     padding: 25px 0;
-    background-color: #fff;
+    // background-color: #fff;
     min-height: 100vh;
     .product-tour {
       flex: 0 0 auto;
       width: 200px;
-      background-color: #dcedf9;
+      background-color: #c1d5d6;
       padding: 20px;
       border-radius: 10px;
       text-align: center;
@@ -51,9 +51,9 @@
 }
 .onboarding-card {
   background: linear-gradient(
-    90deg,
-    rgba(22, 205, 199, 0.2) 30%,
-    rgba(22, 205, 199, 0) 100%
+    -90deg,
+    rgba(22, 120, 205, 0.2) 30%,
+    rgba(22, 205, 104, 0.128) 100%
   );
   .onboarding-card-clinet-name {
     flex: 1;
@@ -85,7 +85,7 @@
       .nav-link {
         background-color: #e2ecf5;
         &.active {
-          background-color: #007bff;
+          background-color: #3d93ee;
         }
       }
     }

@@ -90,7 +90,8 @@ function Sidebar() {
                       aria-expanded="false"
                       aria-controls="purchase"
                     >
-                      <i className="sidebar-nav-icon fas fa-cart-plus" />
+                      {/* <i className="sidebar-nav-icon fas fa-cart-plus" /> */}
+                      <span className="sidebar-nav-icon">🛒</span>
                       <p>Purchase</p>
                     </button>
                   </div>
@@ -656,7 +657,8 @@ function Sidebar() {
                       aria-expanded="false"
                       aria-controls="Sales"
                     >
-                      <i className="sidebar-nav-icon fas fa-chart-line" />
+                      {/* <i className="sidebar-nav-icon fas fa-chart-line" /> */}
+                      <span className="sidebar-nav-icon">🛍️</span>
                       <p>Sales</p>
                     </button>
                   </div>
@@ -941,7 +943,8 @@ function Sidebar() {
                       aria-expanded="false"
                       aria-controls="Inventory"
                     >
-                      <i className="sidebar-nav-icon fas fa-cubes" />
+                      {/* <i className="sidebar-nav-icon fas fa-cubes" /> */}
+                      <span className="sidebar-nav-icon">📦</span>
                       <p>Inventory</p>
                     </button>
                   </div>
@@ -1065,7 +1068,8 @@ function Sidebar() {
                       aria-expanded="false"
                       aria-controls="Production"
                     >
-                      <i className="sidebar-nav-icon fas fa-sitemap" />
+                      {/* <i className="sidebar-nav-icon fas fa-sitemap" /> */}
+                      <span className="sidebar-nav-icon">🏭</span>
                       <p>Production</p>
                     </button>
                   </div>
@@ -1194,7 +1198,8 @@ function Sidebar() {
                       aria-expanded="false"
                       aria-controls="Buyers&Suppliers"
                     >
-                      <i className="sidebar-nav-icon fas fa-hands-helping" />
+                      {/* <i className="sidebar-nav-icon fas fa-hands-helping" /> */}
+                       <span className="sidebar-nav-icon">🤝</span>
                       <p>Buyers & Suppliers</p>
                     </button>
                   </div>
@@ -1613,7 +1618,8 @@ function Sidebar() {
                       aria-expanded="false"
                       aria-controls="pos"
                     >
-                      <i className="sidebar-nav-icon fas fa-cart-arrow-down" />
+                      {/* <i className="sidebar-nav-icon fas fa-cart-arrow-down" /> */}
+                      <span className="sidebar-nav-icon">📠</span>
                       <p>POS</p>
                     </button>
                   </div>
@@ -1685,7 +1691,8 @@ function Sidebar() {
                       aria-expanded="false"
                       aria-controls="reports"
                     >
-                      <i className="sidebar-nav-icon fas fa-chart-area" />
+                      {/* <i className="sidebar-nav-icon fas fa-chart-area" /> */}
+                      <span className="sidebar-nav-icon">📊</span>
                       <p>Reports</p>
                     </button>
                   </div>
@@ -1786,7 +1793,8 @@ function Sidebar() {
                       aria-expanded="false"
                       aria-controls="Settings"
                     >
-                      <i className="sidebar-nav-icon fas fa-cog" />
+                      {/* <i className="sidebar-nav-icon fas fa-cog" /> */}
+                      <span className="sidebar-nav-icon">🛠️</span>
                       <p>Settings</p>
                     </button>
                   </div>
